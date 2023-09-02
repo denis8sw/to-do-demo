@@ -17,8 +17,6 @@ addIcon.addEventListener("click", () => {
 
         todo.classList.add("check")
 
-        localStorage.setItem(todo.outerHTML + counter, "lo")
-
         //main
         todo.style.position = "relative"
         todo.style.left = "50%"
